@@ -4,7 +4,7 @@ export default function Button({ styles, name }) {
   return (
     <button
       type="button"
-      className={`py-4 px-6 bg-blue-gradient font-poppins font-medium text-[16px] text-primary outline-none ${styles}`}
+      className={`py-4 px-6 bg-blue-gradient font-poppins font-medium text-[16px] text-primary outline-none rounded-xl ${styles}`}
     >
       {name}
     </button>
